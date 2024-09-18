@@ -1,8 +1,4 @@
-import { 
-  zEnrollmentGetParam, 
-  zEnrollmentPostBody, 
-  zEnrollmentDeleteBody 
-} from "@lib/schema";
+import {  zEnrollmentGetParam,zEnrollmentPostBody,zEnrollmentDeleteBody } from "@lib/schema";
 import { DB, Student } from "@lib/DB";
 import { NextRequest, NextResponse } from "next/server";
 
